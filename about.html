@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Kule Belden</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-content"></div>
+  </div>
+
+  <!-- 3D Canvas Container -->
+  <div id="canvas-container"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <img src="assets/images/logo.png" alt="logo.png" class="nav-logo">
+    <a href="index.html" class="logo">portfolio</a>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section page-header" style="padding-top: 150px;">
+    <div class="page-header-content">
+      <h1 class="section-title">About <span>Me</span></h1>
+      <p class="page-subtitle">Software Engineer & Digital Innovator</p>
+      <p class="page-description">
+        I'm Kule Belden, a passionate software engineer dedicated to building innovative digital solutions 
+        that transform ideas into reality. With expertise spanning web development, mobile applications, 
+        and computer maintenance, I bring a holistic approach to every project.
+      </p>
+      <div class="page-header-social">
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline Section -->
+  <section class="section">
+    <h2 class="section-title">My <span>Journey</span></h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-content">
+          <h3>Certificate in Computer Science</h3>
+          <span class="date">2022 - Present</span>
+          <p>Sai Pail Institute of Technology and Management</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-content">
+          <h3>O-Level Education</h3>
+          <span class="date">2018 - 2021</span>
+          <p>Kilembe Senior Secondary School</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-content">
+          <h3>Primary Education</h3>
+          <span class="date">2010 - 2017</span>
+          <p>Izinga SDA Primary School</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills-section">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-html5"></i></div>
+        <h3>HTML5 & CSS3</h3>
+        <p>Advanced responsive web design with modern CSS frameworks and animations</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-js"></i></div>
+        <h3>JavaScript</h3>
+        <p>ES6+, DOM manipulation, APIs, and modern frameworks</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-php"></i></div>
+        <h3>PHP</h3>
+        <p>Server-side scripting, MySQL database integration, and REST APIs</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-python"></i></div>
+        <h3>Python</h3>
+        <p>Data processing, automation scripts, and backend development</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-java"></i></div>
+        <h3>Java</h3>
+        <p>Object-oriented programming and Android app development</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-code"></i></div>
+        <h3>C & C++</h3>
+        <p>System programming, data structures, and algorithms</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile Development</h3>
+        <p>Cross-platform mobile applications using modern frameworks</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-tools"></i></div>
+        <h3>Computer Repair & Maintenance</h3>
+        <p>Hardware diagnostics, software troubleshooting, and system optimization</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects-section">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/school-project.jpg" alt="School Website">
+        </div>
+        <div class="project-info">
+          <h3>Junior School Website</h3>
+          <p>A complete school website with admission forms, news updates, and gallery. Built with HTML, CSS, PHP, and JavaScript.</p>
+          <a href="https://kulebelden.github.io/graceoflordinfant/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href,'_blank');return false;">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/tour.png" alt="Tourism Website">
+        </div>
+        <div class="project-info">
+          <h3>Tourism Website</h3>
+          <p>A tourism company website showcasing local attractions, booking system, and virtual tours. Features responsive design.</p>
+          <a href="https://kulebelden.github.io/Vantage-Horizon-tours/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href,'_blank');return false;">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/portfolio.png" alt="Portfolio Website">
+        </div>
+        <div class="project-info">
+          <h3>Personal Portfolio</h3>
+          <p>This portfolio website showcasing skills, projects, and contact information. Features 3D animations and modern design.</p>
+          <a href="home.html" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href,'_blank');return false;">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/images/quots.png" alt="E-commerce Website">
+        </div>
+        <div class="project-info">
+          <h3>Brand Companion</h3>
+          <p>A web app that records real time measurements of branding spaces
+       and delivers instant quotations</p>
+          <a href="https://kulebelden.github.io/peculiar-media/" class="project-link" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href,'_blank');return false;">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I Do Section -->
+  <section class="section">
+    <h2 class="section-title">What I <span>Do</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-laptop"></i></div>
+        <h3>Web Development</h3>
+        <p>Creating beautiful, functional, and responsive websites using modern technologies like HTML5, CSS3, JavaScript, and PHP.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-mobile"></i></div>
+        <h3>Mobile Apps</h3>
+        <p>Building cross-platform mobile applications that work seamlessly on both iOS and Android devices.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-wrench"></i></div>
+        <h3>Computer Repair</h3>
+        <p>Professional computer repair and maintenance services including hardware upgrades, virus removal, and system optimization.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-paint-brush"></i></div>
+        <h3>UI/UX Design</h3>
+        <p>Creating intuitive and user-friendly interfaces that provide excellent user experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="section" style="text-align: center;">
+    <div class="reveal">
+      <h2 style="font-size: 2rem; margin-bottom: 20px;">Ready to Work Together?</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        I'm always excited to take on new projects and bring ideas to life. Let's discuss how I can help you achieve your goals.
+      </p>
+      <div class="btn-group" style="justify-content: center;">
+        <a href="contact.html" class="btn">Get In Touch</a>
+        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">portfolio</a>
+        <p>Crafting creative digital experiences with passion and precision. Building the future of technology, one line of code at a time.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kule Belden. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

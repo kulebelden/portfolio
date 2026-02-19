@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kule Belden | Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-content"></div>
+  </div>
+
+  <!-- 3D Canvas Container -->
+  <div id="canvas-container"></div>
+
+  <!-- Navigation -->
+ <nav class="navbar">
+    <img src="assets/images/logo.png" alt="logo.png" class="nav-logo">
+    <a href="index.html" class="logo">portfolio</a>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="hero-content">
+      <h1>Kule Belden</h1>
+      <h2>
+        <span class="title">
+          <span class="gradient-text" style="--i:4" data-text="Software Engineer">Software Engineer</span>
+          <span class="gradient-text" style="--i:3" data-text="Web Developer">Web Developer</span>
+          <span class="gradient-text" style="--i:2" data-text="Mobile Developer">Mobile Developer</span>
+          <span class="gradient-text" style="--i:1" data-text="Tech Expert">Tech Expert</span>
+        </span>
+      </h2>
+      <p>
+        Passionate software engineer specialized in building creative digital solutions. 
+        <span class="highlight">With expertise in web development, mobile applications, and computer maintenance.</span>
+        I blend code with design to deliver impactful user experiences.
+      </p>
+      <div class="btn-group">
+        <a href="about.html" class="btn">Explore More</a>
+        <a href="contact.html" class="btn btn-secondary">Let's Talk</a>
+      </div>
+      <div class="social-links">
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="image-frame">
+        <div class="img-box">
+          <img src="assets/images/Untitled-5.png" alt="Kule Belden">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Preview Section -->
+  <section class="section skills-section">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-html5"></i></div>
+        <h3>HTML & CSS</h3>
+        <p>Expert in creating responsive and modern web interfaces</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-js"></i></div>
+        <h3>JavaScript</h3>
+        <p>Building dynamic and interactive web applications</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-php"></i></div>
+        <h3>PHP</h3>
+        <p>Server-side development and database integration</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fab fa-python"></i></div>
+        <h3>Python</h3>
+        <p>Data analysis, automation, and backend development</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile Apps</h3>
+        <p>Cross-platform mobile application development</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-laptop-code"></i></div>
+        <h3>Computer Repair</h3>
+        <p>Hardware and software maintenance services</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview Section -->
+  <section class="section about-section">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-content">
+      <div class="about-text reveal">
+        <h3>Software Engineer & Tech Expert</h3>
+        <p>
+          I'm Kule Belden, a dedicated software engineer with a passion for creating innovative digital solutions. 
+          With expertise spanning multiple programming languages and technologies, I specialize in building 
+          robust web applications, mobile apps, and providing expert computer maintenance services.
+        </p>
+        <p>
+          I completed my certificate in Computer Science from Sai Pail Institute of Technology and Management, 
+          where I developed a strong foundation in software engineering principles, web development, and 
+          user experience design.
+        </p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <span class="number" data-target="4">0</span>
+          <span class="label">Websites Built</span>
+        </div>
+        <div class="stat-card">
+          <span class="number" data-target="9">0</span>
+          <span class="label">Programming Languages</span>
+        </div>
+        <div class="stat-card">
+          <span class="number" data-target="3">0</span>
+          <span class="label">Years Experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="number" data-target="50">0</span>
+          <span class="label">Projects Completed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">portfolio</a>
+        <p>Crafting creative digital experiences with passion and precision. Building the future of technology, one line of code at a time.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kule Belden. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

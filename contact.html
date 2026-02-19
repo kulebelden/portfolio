@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Kule Belden</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-content"></div>
+  </div>
+
+  <!-- 3D Canvas Container -->
+  <div id="canvas-container"></div>
+
+  <!-- Floating Shapes -->
+  <div class="floating-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <img src="assets/images/logo.png" alt="logo.png" class="nav-logo">
+    <a href="index.html" class="logo">portfolio</a>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section" style="padding-top: 150px;">
+    <h1 class="section-title">Contact <span>Me</span></h1>
+    <p style="text-align: center; color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+      Have a project in mind or want to collaborate? I'd love to hear from you. Send me a message and let's create something amazing together.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section">
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info reveal">
+        <h3>Get In Touch</h3>
+        <p>
+          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out through any of the following channels.
+        </p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div class="text">
+              <span>Email</span>
+              <p>kulebelden@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <div class="text">
+              <span>Phone</span>
+              <p>+256 764 171212</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="text">
+              <span>Location</span>
+              <p>Uganda</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 40px;">
+          <h4 style="color: var(--text-primary); margin-bottom: 20px;">Follow Me</h4>
+          <div class="social-links">
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form reveal">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+    <div class="skills-grid" style="max-width: 900px; margin: 0 auto;">
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-clock"></i></div>
+        <h3>What is your turnaround time?</h3>
+        <p>Depending on the project complexity, I typically deliver websites within 2-4 weeks. Mobile apps may take 4-8 weeks.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+        <h3>What are your rates?</h3>
+        <p>My rates vary based on project scope. I offer competitive pricing and can work within different budgets. Contact me for a quote.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-tools"></i></div>
+        <h3>Do you offer maintenance?</h3>
+        <p>Yes! I offer ongoing maintenance packages to keep your website or app running smoothly after launch.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="icon"><i class="fas fa-globe"></i></div>
+        <h3>Do you work remotely?</h3>
+        <p>Absolutely! I work with clients globally and can collaborate effectively through online meetings and communication tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="section" style="text-align: center;">
+    <div class="reveal">
+      <h2 style="font-size: 2rem; margin-bottom: 20px;">Let's Build Something Great Together!</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Whether you have a question or just want to say hi, I'll try my best to get back to you as soon as possible.
+      </p>
+      <div class="btn-group" style="justify-content: center;">
+        <a href="about.html" class="btn">Learn More About Me</a>
+        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">portfolio</a>
+        <p>Crafting creative digital experiences with passion and precision. Building the future of technology, one line of code at a time.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kule Belden. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    // Form submission handling
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value;
+      
+      // Show success message
+      alert(`Thank you, ${name}! Your message has been sent. I'll get back to you at ${email} as soon as possible.`);
+      
+      // Reset form
+      this.reset();
+    });
+  </script>
+</body>
+</html>
